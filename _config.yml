@@ -1,4 +1,4 @@
 name: Blog
 markdown: kramdown
 permalink: /:year/:month/:day/:title
-baseurl: /blog
+url: /blog
