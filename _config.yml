@@ -1,4 +1,4 @@
 name: Blog
 markdown: kramdown
 permalink: /:year/:month/:day/:title
-url: /blog
+url: https://nusli.github.io/blog/
