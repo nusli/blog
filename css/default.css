@@ -28,26 +28,27 @@ h1, h2, h3, h4, h5, h6 {
 }
 p {
     font-size: 1.5em;
+    margin: 5% 0 5% 0;
 }
 
 /* nav + footer */
 nav, footer {
     background-color: #444;
     max-height: 100px;
-}
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    list-style: none;
     font-weight: bold;
     color: white;
+    font-family: 'Arial', 'Sans-Serif';
+}
+ul {
+    list-style: none;
     margin: 0 0 0 5%;
 }
-nav ul li, footer ul li {
+nav ul li {
     display: inline-block;
     font-size: 2.4em;
     padding: 20px 10px;
 }
-nav ul li:hover, footer ul li:hover {
+nav ul li:hover {
     background-color: #222;
 }
 nav a,footer a {
@@ -63,7 +64,13 @@ nav a,footer a {
     max-width: 100px;
 }
 footer {
-    font-size: .8em;
+    padding: 20px 10px;
+}
+footer ul {
+    float: right;
+}
+footer p {
+    margin: 0;
 }
 
 ul.posts { 
