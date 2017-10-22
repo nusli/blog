@@ -3,12 +3,14 @@ layout: default
 title: Blog
 ---
 	<h1>{{ page.title }}</h1>
+    <p>
+        Documenting my personal journey as a Web Developer.<br>
+        New posts every month or per project (depending on the size of the project).
+    </p>
 	<ul class="posts">
         <!-- {{site.url}}  = https://nusli.github.io/blog -->
 
 	  {% for post in site.posts %}
-	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ site.url }}{{post.url}}" title="{{ post.title }}">{{ post.title }}
-            <br>{{post.url}}
-            </a></li>
+	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ site.url }}{{post.url}}" title="{{ post.title }}">{{ post.title }}</a></li>
 	  {% endfor %}
 	</ul>
