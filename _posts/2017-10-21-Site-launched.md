@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Hank Quinlan, Horrible Cop, Launches Site"
+title: "Linus Brennecke, Frontend Developer, Launches Blog"
 date: 2017-10-21
 ---
 

@@ -2,29 +2,34 @@
 	<html>
 		<head>
 			<title>{{ page.title }}</title>
+            <link href="https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display" rel="stylesheet">
 			<!-- link to main stylesheet -->
 			<!-- For styles with static names... -->
-            <link href="{{ site.url }}/css/style.css" rel="stylesheet">
+            <link href="{{ site.url }}/css/default.css" rel="stylesheet">
+            <link href="{{ site.url }}/css/nav.css" rel="stylesheet">
+            <link href="{{ site.url }}/css/nav.css" rel="stylesheet">
 		</head>
 		<body>
+            
 			<nav>
 	    		<ul>
 	        		<li><a href="/">Home</a></li>
-		        	<li><a href="/about">About</a></li>
-	        		<li><a href="/cv">CV</a></li>
-	        		<li><a href="/blog">Blog</a></li>
+	        		<li><a href="{{site.url}}">Blog</a></li>
 	    		</ul>
 			</nav>
+            
 			<div class="container">
 			
 			{{ content }}
 			
 			</div><!-- /.container -->
+            
 			<footer>
 	    		<ul>
 	        		<li><a href="mailto:hankquinlanhub@gmail.com">email</a></li>
 	        		<li><a href="https://github.com/hankquinlan">github.com/hankquinlan</a></li>
 				</ul>
 			</footer>
+            
 		</body>
 	</html>
