@@ -24,6 +24,11 @@ p {
 }
 
 /* nav + footer */
+nav, footer {
+    background-color: #444;
+    padding: 20px;;
+    max-height: 100px;
+}
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
@@ -37,16 +42,19 @@ nav ul li, footer ul li {
     margin-right: 20px;
     font-size: 2.2em;
 }
-nav, footer {
-    background-color: #444;
-    padding: 10px;
-}
 nav a,footer a {
     color: white;
     position: relative;
 }
 nav {
     border-bottom: 1px solid aqua;
+}
+nav svg {
+    position: absolute;
+    right: 3%;
+    top: 5px;;
+    font-family: "Mr Dafoe", cursive;
+    width: 10%;
 }
 footer {
     border-top: 1px solid aqua;
