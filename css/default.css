@@ -1,7 +1,8 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #CACCC9;
+   /* background-color: #CACCC9;*/
+    background: #eee;
     color: #333333;
     font-family: 'Libre Franklin', sans-serif;
 }
@@ -9,6 +10,7 @@ body {
     width: 70%;
     margin: auto;
     font-size: 1.5em;
+    padding: 5px;
 }
 a {
     text-decoration: none;
@@ -22,6 +24,7 @@ h1 {
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Cinzel', serif;
+    color: #253445;
 }
 p {
     font-size: 1.5em;
@@ -71,3 +74,4 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
