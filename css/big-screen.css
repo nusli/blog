@@ -1,0 +1,8 @@
+@media only screen and (min-width: 900px) {
+    nav, footer {
+        float: left;
+    }
+    .container {
+        margin-left: 30%;
+    }
+}
