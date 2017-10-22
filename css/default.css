@@ -4,11 +4,11 @@ body {
     background-color: #CACCC9;
     color: #333333;
     font-family: 'Libre Franklin', sans-serif;
-    font-size: 1.5em;
 }
 .container {
     width: 70%;
     margin: auto;
+    font-size: 1.5em;
 }
 a {
     text-decoration: none;
@@ -31,31 +31,33 @@ p {
 /* nav + footer */
 nav, footer {
     background-color: #444;
-    padding: 20px;;
     max-height: 100px;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
     list-style: none;
     font-weight: bold;
     color: white;
-    margin-left: 5%;
+    margin: 0 0 0 5%;
 }
 nav ul li, footer ul li {
-    display: inline;
+    display: inline-block;
     margin-right: 20px;
-    font-size: 2.2em;
+    font-size: 2.4em;
+    padding: 20px 0;
+}
+nav ul li:hover, footer ul li:hover {
+    background-color: black;
 }
 nav a,footer a {
     color: white;
     position: relative;
 }
-nav svg {
+.svg {
     position: absolute;
     right: 3%;
-    top: 5px;
     font-family: "Mr Dafoe", cursive;
+    width: 80px;
     max-height: 100px;
     max-width: 100px;
 }
