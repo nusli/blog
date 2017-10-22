@@ -1,6 +1,10 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #CACCC9;
+    color: #333333;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 1.5em;
 }
 .container {
     width: 70%;
@@ -8,19 +12,20 @@ body {
 }
 a {
     text-decoration: none;
-    color: aqua;
+    color: #C3322F;
 }
 a:hover {
     text-decoration: underline;
 }
 h1 {
     font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cinzel', serif;
 }
 p {
     font-size: 1.5em;
     line-height: 1.4em;
-    color: #333;
 }
 
 /* nav + footer */
@@ -46,18 +51,15 @@ nav a,footer a {
     color: white;
     position: relative;
 }
-nav {
-    border-bottom: 1px solid aqua;
-}
 nav svg {
     position: absolute;
     right: 3%;
-    top: 5px;;
+    top: 5px;
     font-family: "Mr Dafoe", cursive;
-    width: 10%;
+    max-height: 100px;
+    max-width: 100px;
 }
 footer {
-    border-top: 1px solid aqua;
     font-size: .8em;
 }
 
