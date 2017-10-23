@@ -5,4 +5,17 @@
     .container {
         margin-left: 30%;
     }
+    nav ul li {
+        display: block;
+    }
+    nav .svg {
+        position: relative;
+        margin: auto;
+    }
+    svg {
+        width: 50%;
+    }
+    footer ul{
+        float: none;
+    }
 }
