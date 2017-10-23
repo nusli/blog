@@ -1,21 +1,29 @@
 @media only screen and (min-width: 900px) {
+    body {
+        grid-template-areas: 
+            "nav content"
+            "nav content"
+            "footer content";
+    }
     nav, footer {
-        float: left;
-    }
-    .container {
-        margin-left: 30%;
-    }
-    nav ul li {
-        display: block;
+        max-height: none;
     }
     nav .svg {
         position: relative;
-        margin: auto;
     }
-    svg {
-        width: 50%;
+    nav svg {
+        width: 70%;
+        margin-left: 15%;
+        margin-top: 20%;
     }
-    footer ul{
-        float: none;
+    nav ul, footer ul {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+    nav ul li, footer ul li {
+        display: block;
+        padding: 0;
+        margin-top: 8%; 
     }
 }
