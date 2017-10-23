@@ -14,7 +14,7 @@ body {
 }
 .container {
     width: 70%;
-    min-height: 75vh;
+    min-height: 60vh;
     margin: auto;
     font-size: 1.5em;
     padding: 5px;
@@ -45,7 +45,7 @@ nav {
 }
 nav, footer {
     background-color: #444;
-    max-height: 100px;
+    max-height: 150px;
     font-weight: bold;
     color: white;
     font-family: 'Arial', 'Sans-Serif';
@@ -58,6 +58,8 @@ nav ul li {
     display: inline-block;
     font-size: 2.4em;
     padding: 20px 10px;
+    height: 100px;
+    line-height: 100px;
 }
 nav ul li:hover {
     background-color: #222;
@@ -70,9 +72,9 @@ nav .svg {
     position: absolute;
     right: 3%;
     font-family: "Mr Dafoe", cursive;
-    width: 80px;
-    max-height: 100px;
-    max-width: 100px;
+    width: 130px;
+    max-height: 150px;
+    max-width: 150px;
 }
 footer {
     padding: 20px 10px;
@@ -83,6 +85,7 @@ footer ul {
 }
 footer p {
     margin: 0;
+    line-height: 100px;
 }
 
 ul.posts { 

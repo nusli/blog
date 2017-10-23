@@ -4,11 +4,9 @@
             "nav content"
             "nav content"
             "footer content";
-        grid-template-rows: 23% 23% 50%;
     }
     nav {
         padding: 0;
-        align-content: center;
     }
     nav, footer {
         max-height: none;
@@ -34,5 +32,8 @@
     footer ul {
         float: none;
         margin-bottom: 5%;
+    }
+    footer p {
+        line-height: normal;
     }
 }
