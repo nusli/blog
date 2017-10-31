@@ -1,42 +1,57 @@
-@media only screen and (min-width: 1000px) and (orientation: landscape) {
-    body {
-        grid-template-areas: 
-            "nav content"
-            "nav content"
-            "footer content";
-    }
-    nav {
-        padding: 0;
-    }
+@media only screen and (min-width: 1100px) and (orientation: landscape) {
     nav, footer {
-        max-height: none;
+        display: none;
+    }
+    h1 {
+        font-size: 2.5em;
+    }
+    aside {
+        padding: 0;
+        display: inline-block;
+        position: fixed;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        width: 20vw;
+        background-color: #444;
+        font-family: 'Arial', 'Sans-Serif';
+        font-weight: bold;
+        color: white;
         text-align: center;
-        font-size: 0.8em;
     }
-    nav .svg {
-        position: relative;
-    }
-    nav svg {
-        width: 70%;
-        margin-left: 13%;
-        margin-top: 40%;
-    }
-    nav ul, footer ul {
+    aside ul {
         margin: 0;
         padding: 0;
+        width: 100%;
+        
     }
-    nav ul li, footer ul li {
-        display: block;
-        padding: 0;
-        margin-top: 8%; 
-        line-height: normal;
-        height: auto;
+    aside ul li {
+        width: 100%;
+        font-size: 2.4em;
+        margin-top: 5%;
     }
-    footer ul {
-        float: none;
-        margin-bottom: 5%;
+    .navlinks {
+        margin-top: 25%;
+        margin-bottom: 35%;
     }
-    footer p {
-        line-height: normal;
+    .navlinks li:hover {
+        background-color: #222;
     }
+    aside svg {
+        width: 15vw;
+        margin-top: 5%;
+        font-family: "Mr Dafoe", cursive;
+    }
+    aside a {
+        color: white;
+    }
+    .container {
+        width: 67vw;
+        margin-left: 25vw;
+        padding-left: 20px;
+        min-height: 100%;
+    }
+    .copyright {
+        margin-top: 23%;
+        margin-left: 2%;
 }
