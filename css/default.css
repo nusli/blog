@@ -14,7 +14,7 @@ body {
 }
 .container {
     width: 70%;
-    min-height: 60vh;
+    min-height: 85vh;
     margin: auto;
     font-size: 1.5em;
     padding: 5px;
@@ -42,11 +42,9 @@ p {
 /* nav + footer */
 nav {
     grid-area: nav;
-    height: 12vh;
 }
 nav, footer {
     background-color: #444;
-    max-height: 100px;
     font-weight: bold;
     color: white;
     font-family: 'Arial', 'Sans-Serif';
@@ -58,8 +56,7 @@ ul {
 nav ul li {
     display: inline-block;
     font-size: 2.8em;
-    padding: 0 10px;
-    line-height: 12vh;
+    padding: 3vh 10px;
 }
 nav ul li:hover {
     background-color: #222;
@@ -74,7 +71,8 @@ nav .svg {
     font-family: "Mr Dafoe", cursive;
     width: 11vh;
     max-height: 150px;
-    max-width: 90px;
+    max-width: 9.5vh;
+    margin-top: 5px;
 }
 footer {
     padding: 10px 10px;
@@ -103,11 +101,11 @@ ul.posts li {
 aside {
     display: none;
 }
-/*@media only screen and (orientation: portrait) {
-    nav ul li {
-        line-height: 8.5vh;
+@media only screen and (orientation: portrait) {
+    nav .svg {
+        max-width: 8.5vh;
     }
-}*/
+}
 @media only screen and (max-width: 400px) {
     nav ul {
         margin: 0;
