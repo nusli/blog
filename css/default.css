@@ -103,8 +103,17 @@ ul.posts li {
 aside {
     display: none;
 }
-@media only screen and (orientation: portrait) {
+/*@media only screen and (orientation: portrait) {
     nav ul li {
         line-height: 8.5vh;
+    }
+}*/
+@media only screen and (max-width: 400px) {
+    nav ul {
+        margin: 0;
+        background-color: #444;
+    }
+    nav ul li {
+        display: block;
     }
 }
