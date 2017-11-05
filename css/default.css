@@ -42,10 +42,11 @@ p {
 /* nav + footer */
 nav {
     grid-area: nav;
+    height: 12vh;
 }
 nav, footer {
     background-color: #444;
-    max-height: 150px;
+    max-height: 100px;
     font-weight: bold;
     color: white;
     font-family: 'Arial', 'Sans-Serif';
@@ -57,8 +58,8 @@ ul {
 nav ul li {
     display: inline-block;
     font-size: 2.8em;
-    padding: 20px 10px;
-    line-height: 100px;
+    padding: 0 10px;
+    line-height: 12vh;
 }
 nav ul li:hover {
     background-color: #222;
@@ -71,21 +72,23 @@ nav .svg {
     position: absolute;
     right: 3%;
     font-family: "Mr Dafoe", cursive;
-    width: 130px;
+    width: 11vh;
     max-height: 150px;
-    max-width: 150px;
+    max-width: 90px;
 }
 footer {
-    padding: 20px 10px;
+    padding: 10px 10px;
     grid-area: footer;
     font-size: 1.4em;
+    height: 8vh;
+    max-height: 90px;
 }
 footer ul {
     float: right;
 }
 footer p {
     margin: 0;
-    line-height: 130px;
+    line-height: 6vh;
 }
 
 ul.posts { 
@@ -99,4 +102,9 @@ ul.posts li {
 
 aside {
     display: none;
+}
+@media only screen and (orientation: portrait) {
+    nav ul li {
+        line-height: 8.5vh;
+    }
 }
